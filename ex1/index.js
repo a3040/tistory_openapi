@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const app = express();
 
-const client_id = 'a2bd78f8bc5789afa307f11f01a5ab88';
+const client_id = '<앱의clent_id>';
 const redirect_uri='https://a3040.tistory.com/';
 const state_param ='dummy';
 
