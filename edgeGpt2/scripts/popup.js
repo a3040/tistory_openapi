@@ -1,0 +1,1 @@
+console.log(`팝업 js 불림, 폴더구조확인용 scripts/popup.js`);

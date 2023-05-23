@@ -1,0 +1,1 @@
+console.log(`js 불림, 폴더구조확인용 content.js`);
