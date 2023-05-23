@@ -1,8 +1,8 @@
 
 import axios from 'axios';
 
-const searchId = "ULCAFgoVhnR3SM3bFF2A";
-const searchSecret = "Dc_p4fYtqL"; 
+const searchId = "";
+const searchSecret = ""; 
 
 const searchUrl = "https://openapi.naver.com/v1/search/webkr.json";
 
