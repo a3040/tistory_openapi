@@ -1,0 +1,19 @@
+{
+    "name": "Hello3",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Hello",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chat.openai.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
