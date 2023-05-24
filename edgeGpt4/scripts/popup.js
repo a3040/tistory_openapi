@@ -19,10 +19,10 @@ function send_to_content(msg){
     })
 }
 
-
 $(document).ready(function () {
-    $("#appendDiv").on("click", function () {
+    $("#sendMsg").on("click", function () {
         console.log("clicked");
-        send_to_content(`전송하기`);
+        const msg = $("#msg").val();
+        send_to_content(msg);
     });
 });

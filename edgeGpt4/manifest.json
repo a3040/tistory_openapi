@@ -1,11 +1,16 @@
 {
-    "name": "Hello3",
+    "name": "Hello4",
     "version": "0.0.1",
     "manifest_version": 3,
     "description": "Hello",
     "action": {
         "default_popup": "popup.html"
     },
+    "permissions": [
+        "debugger",
+        "tabs",
+        "scripting"
+    ],
     "content_scripts": [
         {
             "matches": [
